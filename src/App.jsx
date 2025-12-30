@@ -369,30 +369,25 @@ export default function PortfolioWebsite() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {[
               {
-                title: "Infrastructure Automation & Hardening",
-                desc: "Developed automation scripts to enforce security baselines, improve system reliability, and reduce manual operational effort.",
-                link: "#"
-              },
-              {
-                 title: "Security Monitoring & SOC Lab",
-                 desc: "Built a home SOC lab using open-source tools to simulate log ingestion, alerting, and incident analysis. Designed detection rules and documented investigation workflows.",
-                 link: "#"
-              },
-              {
                 title: "Security Hardening & Threat Analysis",
                 desc: "Conducted hands-on security research, threat modeling, and vulnerability analysis across real-world systems. Documented findings, mitigation strategies, and defensive recommendations through detailed security writeups.",
                 link: "https://0xsn.cartmixbd.com"
               },
-              // {
-              //   title: "Secure System Design Case Study",
-              //   desc: "Designed an end-to-end system architecture with focus on scalability, reliability, and security. Documented tradeoffs, threat models, and operational considerations.",
-              //   link: "#"
-              // },
+              {
+                title: "Secure System Design Case Study",
+                desc: "Designed an end-to-end system architecture with focus on scalability, reliability, and security. Documented tradeoffs, threat models, and operational considerations.",
+                link: "https://0xsn.cartmixbd.com/2025/12/30/secure-file-sharing-system-design/"
+              },
               {
                 title: "E-Commerce Platform Engineering",
                 desc: "Engineered and maintained a production e-commerce platform using WordPress and WooCommerce. Implemented backend customizations, performance optimizations, and operational automation to improve reliability, security, and day-to-day autonomy of the system.",
                 link: "https://cartmixbd.com"
-              }
+              },
+              {
+                title: "Security Monitoring & SOC Lab",
+                desc: "Built a home SOC lab using open-source tools to simulate log ingestion, alerting, and incident analysis. Designed detection rules and documented investigation workflows.",
+                link: "#"
+             },
             ].map((project, idx) => (
               <div key={idx} className="p-6 bg-slate-800/30 border border-slate-700/50 rounded-lg hover:border-slate-600/50 transition group">
                 <h3 className="text-lg font-semibold text-slate-50 mb-3 group-hover:text-blue-300 transition">
