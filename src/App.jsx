@@ -375,7 +375,7 @@ export default function PortfolioWebsite() {
               },
               {
                 title: "Secure System Design Case Study",
-                desc: "Designed an end-to-end system architecture with focus on scalability, reliability, and security. Documented tradeoffs, threat models, and operational considerations.",
+                desc: "Designed an end-to-end system architecture with focus on scalability, reliability, and security. Documented data flows, threat models, failure modes, and tradeoffs under real-world constraints.",
                 link: "https://0xsn.cartmixbd.com/2025/12/30/secure-file-sharing-system-design/"
               },
               {
@@ -384,10 +384,15 @@ export default function PortfolioWebsite() {
                 link: "https://cartmixbd.com"
               },
               {
-                title: "Security Monitoring & SOC Lab",
-                desc: "Built a home SOC lab using open-source tools to simulate log ingestion, alerting, and incident analysis. Designed detection rules and documented investigation workflows.",
-                link: "#"
-             },
+                title: "SOC L1 Incident Triage, Reporting, and Escalation Case Study",
+                desc: "Analyzed simulated SOC alerts to perform triage, investigation, incident reporting, and escalation. Documented decision-making, severity assessment, and communication with senior analysts during phishing and post-exploitation scenarios.",
+                link: "https://0xsn.cartmixbd.com/2025/10/30/soc-level1-alert-reporting/"
+              },
+              // {
+              //   title: "Security Monitoring & SOC Lab",
+              //   desc: "Built a home SOC lab using open-source tools to simulate log ingestion, alerting, and incident analysis. Designed detection rules and documented investigation workflows.",
+              //   link: "#"
+              // },
             ].map((project, idx) => (
               <div key={idx} className="p-6 bg-slate-800/30 border border-slate-700/50 rounded-lg hover:border-slate-600/50 transition group">
                 <h3 className="text-lg font-semibold text-slate-50 mb-3 group-hover:text-blue-300 transition">
