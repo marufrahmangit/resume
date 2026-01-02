@@ -371,12 +371,12 @@ export default function PortfolioWebsite() {
               {
                 title: "Security Hardening & Threat Analysis",
                 desc: "Conducted hands-on security research, threat modeling, and vulnerability analysis across real-world systems. Documented findings, mitigation strategies, and defensive recommendations through detailed security writeups.",
-                link: "https://0xsn.cartmixbd.com"
+                link: "https://sec.marufrahman.dev"
               },
               {
                 title: "Secure System Design Case Study",
                 desc: "Designed an end-to-end system architecture with focus on scalability, reliability, and security. Documented data flows, threat models, failure modes, and tradeoffs under real-world constraints.",
-                link: "https://0xsn.cartmixbd.com/2025/12/30/secure-file-sharing-system-design/"
+                link: "https://sec.marufrahman.dev/2025/12/30/secure-file-sharing-system-design/"
               },
               {
                 title: "E-Commerce Platform Engineering",
@@ -386,7 +386,7 @@ export default function PortfolioWebsite() {
               {
                 title: "SOC L1 Incident Triage, Reporting, and Escalation Case Study",
                 desc: "Analyzed simulated SOC alerts to perform triage, investigation, incident reporting, and escalation. Documented decision-making, severity assessment, and communication with senior analysts during phishing and post-exploitation scenarios.",
-                link: "https://0xsn.cartmixbd.com/2025/10/30/soc-level1-alert-reporting/"
+                link: "https://sec.marufrahman.dev/2025/10/30/soc-level1-alert-reporting/"
               },
               // {
               //   title: "Security Monitoring & SOC Lab",
