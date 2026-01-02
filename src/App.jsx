@@ -418,10 +418,10 @@ export default function PortfolioWebsite() {
                 <h4 className="font-semibold text-blue-400 mb-4 text-sm uppercase tracking-wide">External Presence</h4>
                 <div className="space-y-3">
                   {[
+                    { icon: FileText, label: "Security Portfolio", url: "https://sec.marufrahman.dev" },
                     { icon: Github, label: "GitHub", url: "https://github.com/marufrahmangit" },
                     { icon: Linkedin, label: "LinkedIn", url: "https://linkedin.com/in/marufrahmanpro" },
-                    { icon: Youtube, label: "YouTube", url: "https://youtube.com/@marufrahmandigital" },
-                    { icon: FileText, label: "Security Portfolio", url: "https://0xsn.cartmixbd.com" }
+                    { icon: Youtube, label: "YouTube", url: "https://youtube.com/@marufrahmandigital" }                    
                   ].map((link, idx) => (
                     <a
                       key={idx}
