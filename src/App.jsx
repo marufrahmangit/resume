@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Download, ExternalLink, ChevronDown, Send, Github, Linkedin, Youtube, FileText } from 'lucide-react';
+import { Menu, X, Download, ExternalLink, ChevronDown, Send, Github, Linkedin, Youtube, FileText, ShoppingBag } from 'lucide-react';
 
 export default function PortfolioWebsite() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -116,7 +116,7 @@ export default function PortfolioWebsite() {
               {/* Photo container */}
               <div className="relative w-full h-full rounded-full border-2 border-slate-700/50 overflow-hidden shadow-2xl">
                 <img
-                  src="./assets/maruf-rahman-cropped.png"
+                  src="./assets/maruf-rahman-3.png"
                   alt="Professional headshot"
                   className="w-full h-full object-cover"
                 />
@@ -418,7 +418,7 @@ export default function PortfolioWebsite() {
                 <h4 className="font-semibold text-blue-400 mb-4 text-sm uppercase tracking-wide">External Presence</h4>
                 <div className="space-y-3">
                   {[
-                    { icon: FileText, label: "Security Portfolio", url: "https://sec.marufrahman.dev" },
+                    { icon: FileText, label: "IT Security Portfolio", url: "https://sec.marufrahman.dev"},
                     { icon: Github, label: "GitHub", url: "https://github.com/marufrahmangit" },
                     { icon: Linkedin, label: "LinkedIn", url: "https://linkedin.com/in/marufrahmanpro" },
                     { icon: Youtube, label: "YouTube", url: "https://youtube.com/@marufrahmandigital" }                    
