@@ -116,7 +116,7 @@ export default function PortfolioWebsite() {
               {/* Photo container */}
               <div className="relative w-full h-full rounded-full border-2 border-slate-700/50 overflow-hidden shadow-2xl">
                 <img
-                  src="./assets/maruf-rahman-3.png"
+                  src="./assets/maruf-rahman-2.png"
                   alt="Professional headshot"
                   className="w-full h-full object-cover"
                 />
