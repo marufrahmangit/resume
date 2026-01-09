@@ -87,13 +87,13 @@ export default function PortfolioWebsite() {
               >
                 Let's Talk
               </button>
-              <a
+              {/* <a
                 href="./assets/maruf-rahman.pdf"
                 target="_blank"
                 className="px-6 py-3 border border-slate-600 hover:border-slate-400 text-slate-50 rounded-lg font-medium transition flex items-center gap-2"
               >
                 <Download size={18} /> Resume
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
