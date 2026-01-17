@@ -61,7 +61,7 @@ export default function PortfolioWebsite() {
         
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="space-y-8">
-            <div>
+            {/* <div>
               <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-4 leading-tight">
                 Systems Thinker.
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-300">
@@ -72,14 +72,31 @@ export default function PortfolioWebsite() {
               <p className="text-xl text-slate-400 max-w-2xl leading-relaxed">
                 Building resilient systems and leading cross-functional teams to solve critical infrastructure challenges. Nearly a decade of experience shipping products, managing teams, and protecting what matters.
               </p>
+            </div> */}
+            <div>
+              <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-4 leading-tight">
+                Product Leader.
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-300">
+                  Who Thinks in Systems.
+                </span>
+              </h1>
+              <p className="text-xl text-slate-400 max-w-2xl leading-relaxed">
+                I own product problems end to end, from understanding real user workflows to shipping features and iterating based on outcomes. Backed by an engineering background, I’m comfortable making tradeoffs under ambiguity and working closely with design and engineering to deliver practical, high-impact solutions.
+              </p>
             </div>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <button
+              {/* <button
                 onClick={() => scrollToSection('projects')}
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition transform hover:scale-105"
               >
                 View Work
+              </button> */}
+              <button
+                onClick={() => scrollToSection('projects')}
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition transform hover:scale-105"
+              >
+                View Product Work
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
@@ -130,12 +147,19 @@ export default function PortfolioWebsite() {
             <div>
               <p className="text-sm font-semibold text-blue-400 uppercase tracking-wider mb-2">About Me</p>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-50 mb-4">Maruf Rahman</h2>
-              <p className="text-xl text-slate-300 mb-4">Infrastructure Architect & Systems Leader</p>
-              <p className="text-slate-400 leading-relaxed mb-4">
+              {/* <p className="text-xl text-slate-300 mb-4">Infrastructure Architect & Systems Leader</p> */}
+              <p className="text-xl text-slate-300 mb-4">Product Leader Bridging Business, Users, and Engineering</p>
+              {/* <p className="text-slate-400 leading-relaxed mb-4">
                 With nearly a decade of experience building resilient systems and leading high-performing teams, I specialize in translating complex infrastructure challenges into elegant, scalable solutions. My journey from hands-on development to strategic system design has equipped me to navigate technical and organizational complexity with equal confidence.
+              </p> */}
+              <p className="text-slate-400 leading-relaxed mb-4">
+                With nearly a decade of experience across product management, engineering, and systems roles, I focus on turning complex problems into clear product direction. I’ve worked closely with users, stakeholders, and delivery teams to define priorities, make tradeoffs, and ship features that balance usability, business needs, and technical constraints.
               </p>
-              <p className="text-slate-400 leading-relaxed">
+              {/* <p className="text-slate-400 leading-relaxed">
                 I'm passionate about cybersecurity, infrastructure reliability, and mentoring teams who care about doing things right. When not architecting systems, I'm exploring emerging security practices and and staying ahead of trends in IT and cybersecurity.
+              </p> */}
+              <p className="text-slate-400 leading-relaxed">
+                I care deeply about building reliable, well-designed products and helping teams do their best work. I enjoy mentoring, clarifying direction when things are ambiguous, and continuously improving how products are discovered, delivered, and measured.
               </p>
             </div>
             
@@ -169,17 +193,17 @@ export default function PortfolioWebsite() {
               </p>
               <div className="space-y-4">
                 <div className="p-4 bg-slate-800/50 border border-slate-700/50 rounded-lg hover:border-slate-600/50 transition">
-                  <div className="text-sm font-semibold text-blue-400 mb-1">Developer → Product Manager → Systems Analyst</div>
+                  <div className="text-sm font-semibold text-blue-400 mb-1">Developer → Technical Product Manager → Systems Analyst</div>
                   <p className="text-slate-400 text-sm">Clear progression demonstrating depth and breadth in technical decision-making</p>
                 </div>
                 <div className="p-4 bg-slate-800/50 border border-slate-700/50 rounded-lg hover:border-slate-600/50 transition">
                   <div className="text-sm font-semibold text-cyan-400 mb-1">Cross-functional Leadership</div>
                   <p className="text-slate-400 text-sm">Led teams through critical infrastructure migrations, security hardening, and product launches</p>
                 </div>
-                <div className="p-4 bg-slate-800/50 border border-slate-700/50 rounded-lg hover:border-slate-600/50 transition">
+                {/* <div className="p-4 bg-slate-800/50 border border-slate-700/50 rounded-lg hover:border-slate-600/50 transition">
                   <div className="text-sm font-semibold text-blue-400 mb-1">Cybersecurity Trajectory</div>
                   <p className="text-slate-400 text-sm">Transitioning into security-focused roles: SOC Analyst, Cybersecurity Analyst, IT Manager</p>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -187,12 +211,18 @@ export default function PortfolioWebsite() {
               <h3 className="text-lg font-semibold">Core Strengths</h3>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: 'Systems Design', val: '95' },
-                  { label: 'Infrastructure', val: '88' },
-                  { label: 'Threat Analysis', val: '82' },
-                  { label: 'Team Leadership', val: '90' },
-                  { label: 'Problem Solving', val: '92' },
-                  { label: 'Incident Response', val: '85' }
+                  // { label: 'Systems Design', val: '95' },
+                  // { label: 'Infrastructure', val: '88' },
+                  // { label: 'Threat Analysis', val: '82' },
+                  // { label: 'Team Leadership', val: '90' },
+                  // { label: 'Problem Solving', val: '92' },
+                  // { label: 'Incident Response', val: '85' }
+                  { label: 'Problem Discovery & Framing', val: '90' },
+                  { label: 'Roadmapping & Prioritization', val: '85' },
+                  { label: 'Cross-functional Delivery', val: '95' },
+                  { label: 'Tradeoff Decision-making', val: '90' },
+                  { label: 'Stakeholder Communication', val: '88' },
+                  { label: 'Outcome Evaluation & Iteration', val: '92' }
                 ].map(skill => (
                   <div key={skill.label}>
                     <div className="flex justify-between items-center mb-2">
@@ -224,14 +254,23 @@ export default function PortfolioWebsite() {
                 role: "Senior Systems Analyst",
                 company: "Veradigm®",
                 period: "2021 - Present",
-                impact: "Guide engineering teams through complex delivery cycles, shaping technical decisions, streamlining workflows, and ensuring scalable, high-quality solutions. Implemented system monitoring and security practices across multiple services, improving reliability to 99.98%.",
+                // impact: "Guide engineering teams through complex delivery cycles, shaping technical decisions, streamlining workflows, and ensuring scalable, high-quality solutions. Implemented system monitoring and security practices across multiple services, improving reliability to 99.98%.",
+                impact: "Partner with Product Managers and engineering teams to shape problem statements, define delivery scope, and guide features from concept through release in a regulated healthcare SaaS environment.",
                 tags: ["Systems Analysis", "Security", "Leadership"]
               },
+              // {
+              //   role: "Software Product Manager",
+              //   company: "Labaid & Far-East IT Solutions Ltd.",
+              //   period: "2020 - 2021",
+              //   impact: "Directed full-stack healthcare and e-commerce product development. Defined roadmaps, managed sprints, and coordinated cross-functional teams to improve user experience and ensure timely delivery. Balanced business priorities with technical constraints effectively.",
+              //   tags: ["Product Management", "Strategy", "Leadership"]
+              // },
               {
-                role: "Software Product Manager",
-                company: "Labaid & Far-East IT Solutions Ltd.",
+                role: "Technical Product Manager",
+                company: "Labaid",
                 period: "2020 - 2021",
-                impact: "Directed full-stack healthcare and e-commerce product development. Defined roadmaps, managed sprints, and coordinated cross-functional teams to improve user experience and ensure timely delivery. Balanced business priorities with technical constraints effectively.",
+                // impact: "Directed full-stack healthcare and e-commerce product development. Defined roadmaps, managed sprints, and coordinated cross-functional teams to improve user experience and ensure timely delivery. Balanced business priorities with technical constraints effectively.",
+                impact: "Worked directly with clinicians, operations teams, and business stakeholders to understand workflows and pain points before defining product priorities.",
                 tags: ["Product Management", "Strategy", "Leadership"]
               },
               {
@@ -314,11 +353,11 @@ export default function PortfolioWebsite() {
       {/* Cybersecurity Focus */}
       <section id="security" className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Security-First Mindset</h2>
-          <p className="text-slate-400 mb-12 text-lg">Transitioning into dedicated security roles with deep foundational knowledge and demonstrated commitment.</p>
+          {/* <h2 className="text-3xl font-bold mb-4">Security-First Mindset</h2> */}
+          {/* <p className="text-slate-400 mb-12 text-lg">Transitioning into dedicated security roles with deep foundational knowledge and demonstrated commitment.</p> */}
           
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-blue-500/20 rounded-lg">
+            {/* <div className="p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-blue-500/20 rounded-lg">
               <h3 className="text-lg font-semibold mb-4 text-blue-300">Target Trajectory</h3>
               <div className="space-y-3 text-sm">
                 <div className="flex items-center gap-3">
@@ -334,9 +373,56 @@ export default function PortfolioWebsite() {
                   <span className="text-slate-300"><strong>IT Manager</strong> - Security leadership & governance</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-cyan-500/20 rounded-lg">
+            <div className="p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-blue-500/20 rounded-lg">
+              <h3 className="text-lg font-semibold mb-4 text-blue-300">Product Focus</h3>
+                <div className="space-y-3 text-sm">
+                  <div className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                    <span className="text-slate-300">
+                      <strong>Problem Ownership</strong> – Framing user problems, defining success, and driving solutions end to end
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                    <span className="text-slate-300">
+                      <strong>Product Judgment</strong> – Making tradeoffs under ambiguity across user needs, business goals, and technical constraints
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                    <span className="text-slate-300">
+                      <strong>Cross-functional Leadership</strong> – Partnering with design, engineering, and stakeholders to ship outcomes
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-cyan-500/20 rounded-lg">
+                <h3 className="text-lg font-semibold mb-4 text-cyan-300">Core Product Competencies</h3>
+                <div className="space-y-3 text-sm">
+                  <div className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                    <span className="text-slate-300">User research & workflow analysis</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                    <span className="text-slate-300">Roadmapping, prioritization, and backlog management</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                    <span className="text-slate-300">Feature delivery & iterative improvement</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                    <span className="text-slate-300">Stakeholder communication & alignment</span>
+                  </div>
+                </div>
+              </div>
+
+
+            {/* <div className="p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-cyan-500/20 rounded-lg">
               <h3 className="text-lg font-semibold mb-4 text-cyan-300">Core Competencies</h3>
               <div className="space-y-3 text-sm">
                 <div className="flex items-center gap-3">
@@ -356,7 +442,7 @@ export default function PortfolioWebsite() {
                   <span className="text-slate-300">Continuous learning in evolving threat landscape</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -366,7 +452,7 @@ export default function PortfolioWebsite() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-12">Selected Work</h2>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          {/* <div className="grid md:grid-cols-2 gap-8 mb-12">
             {[
               {
                 title: "Security Hardening & Threat Analysis",
@@ -409,6 +495,51 @@ export default function PortfolioWebsite() {
                 </a>
               </div>
             ))}
+          </div> */}
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {[
+              {
+                title: "E-Commerce Platform Engineering",
+                desc: "Engineered and maintained a production e-commerce platform using WordPress and WooCommerce. Implemented backend customizations, performance optimizations, and operational automation to improve reliability, security, and day-to-day autonomy of the system.",
+                link: "https://cartmixbd.com"
+              },
+              {
+                title: "Secure System Design Case Study",
+                desc: "Designed an end-to-end system architecture with focus on scalability, reliability, and security. Documented data flows, threat models, failure modes, and tradeoffs under real-world constraints.",
+                link: "https://sec.marufrahman.dev/2025/12/30/secure-file-sharing-system-design/"
+              },
+              {
+                title: "Security Hardening & Threat Analysis",
+                desc: "Conducted hands-on security research, threat modeling, and vulnerability analysis across real-world systems. Documented findings, mitigation strategies, and defensive recommendations through detailed security writeups.",
+                link: "https://sec.marufrahman.dev"
+              },         
+              {
+                title: "Incident Response Decision-Making Case Study",
+                desc: "Analyzed simulated SOC alerts to perform triage, investigation, incident reporting, and escalation. Documented decision-making, severity assessment, and communication with senior analysts during phishing and post-exploitation scenarios.",
+                link: "https://sec.marufrahman.dev/2025/10/30/soc-level1-alert-reporting/"
+              },
+              // {
+              //   title: "Security Monitoring & SOC Lab",
+              //   desc: "Built a home SOC lab using open-source tools to simulate log ingestion, alerting, and incident analysis. Designed detection rules and documented investigation workflows.",
+              //   link: "#"
+              // },
+            ].map((project, idx) => (
+              <div key={idx} className="p-6 bg-slate-800/30 border border-slate-700/50 rounded-lg hover:border-slate-600/50 transition group">
+                <h3 className="text-lg font-semibold text-slate-50 mb-3 group-hover:text-blue-300 transition">
+                  {project.title}
+                </h3>
+                <p className="text-slate-400 text-sm mb-4 leading-relaxed">{project.desc}</p>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 text-sm font-medium transition"
+                >
+                  View Details <ExternalLink size={16} />
+                </a>
+              </div>
+            ))}
           </div>
 
           <div className="bg-slate-800/50 border border-slate-700/50 rounded-lg p-8">
@@ -418,7 +549,7 @@ export default function PortfolioWebsite() {
                 <h4 className="font-semibold text-blue-400 mb-4 text-sm uppercase tracking-wide">External Presence</h4>
                 <div className="space-y-3">
                   {[
-                    { icon: FileText, label: "IT Security Portfolio", url: "https://sec.marufrahman.dev"},
+                    // { icon: FileText, label: "IT Security Portfolio", url: "https://sec.marufrahman.dev"},
                     { icon: Github, label: "GitHub", url: "https://github.com/marufrahmangit" },
                     { icon: Linkedin, label: "LinkedIn", url: "https://linkedin.com/in/marufrahmanpro" },
                     { icon: Youtube, label: "YouTube", url: "https://youtube.com/@marufrahmandigital" }                    
