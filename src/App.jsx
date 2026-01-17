@@ -40,7 +40,7 @@ export default function PortfolioWebsite() {
 
           <div className={`${menuOpen ? 'block' : 'hidden'} md:block absolute md:static top-16 md:top-0 left-0 right-0 bg-slate-950 md:bg-transparent border-b md:border-0 border-slate-800`}>
             <div className="flex flex-col md:flex-row gap-8 p-6 md:p-0 md:gap-12">
-              {['about', 'experience', 'skills', 'security', 'projects', 'contact'].map(item => (
+              {['about', 'experience', 'skills', 'competencies', 'projects', 'contact'].map(item => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -351,7 +351,7 @@ export default function PortfolioWebsite() {
       </section>
 
       {/* Cybersecurity Focus */}
-      <section id="security" className="py-20 px-6">
+      <section id="competencies" className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
           {/* <h2 className="text-3xl font-bold mb-4">Security-First Mindset</h2> */}
           {/* <p className="text-slate-400 mb-12 text-lg">Transitioning into dedicated security roles with deep foundational knowledge and demonstrated commitment.</p> */}
