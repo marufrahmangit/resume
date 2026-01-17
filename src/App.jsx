@@ -497,7 +497,7 @@ export default function PortfolioWebsite() {
             ))}
           </div> */}
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid md:grid-cols-1 gap-4 mb-12">
             {[
               {
                 title: "E-Commerce Platform Engineering",
@@ -505,17 +505,12 @@ export default function PortfolioWebsite() {
                 link: "https://cartmixbd.com"
               },
               {
-                title: "Secure System Design Case Study",
+                title: "File-Sharing Workflow Product Case Study",
                 desc: "Designed an end-to-end system architecture with focus on scalability, reliability, and security. Documented data flows, threat models, failure modes, and tradeoffs under real-world constraints.",
                 link: "https://sec.marufrahman.dev/2025/12/30/secure-file-sharing-system-design/"
-              },
+              },                       
               {
-                title: "Security Hardening & Threat Analysis",
-                desc: "Conducted hands-on security research, threat modeling, and vulnerability analysis across real-world systems. Documented findings, mitigation strategies, and defensive recommendations through detailed security writeups.",
-                link: "https://sec.marufrahman.dev"
-              },         
-              {
-                title: "Incident Response Decision-Making Case Study",
+                title: "Incident Response Decision-Making",
                 desc: "Analyzed simulated SOC alerts to perform triage, investigation, incident reporting, and escalation. Documented decision-making, severity assessment, and communication with senior analysts during phishing and post-exploitation scenarios.",
                 link: "https://sec.marufrahman.dev/2025/10/30/soc-level1-alert-reporting/"
               },
