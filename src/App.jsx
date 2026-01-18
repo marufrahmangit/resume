@@ -585,8 +585,8 @@ export default function PortfolioWebsite() {
             <div className="space-y-6">
               <div>
                 <p className="text-sm text-slate-500 mb-2">EMAIL</p>
-                <a href="mailto:marufrahman.work@gmail.com" className="text-lg text-slate-50 hover:text-blue-400 transition">
-                  marufrahman.work@gmail.com
+                <a href="mailto:mail@marufrahman.dev" className="text-lg text-slate-50 hover:text-blue-400 transition">
+                  mail@marufrahman.dev
                 </a>
               </div>
               <div>
@@ -609,7 +609,7 @@ export default function PortfolioWebsite() {
               </div>
             </div>
 
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <input
                 type="text"
                 placeholder="Your name"
@@ -632,7 +632,36 @@ export default function PortfolioWebsite() {
                 <Send size={18} /> Send Message
               </button>
               {formStatus && <p className="text-sm text-blue-400 text-center">{formStatus}</p>}
-            </div>
+            </div> */}
+            <form action="https://formspree.io/f/xkoojnbz" method="POST" className="space-y-4">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your name"
+                required
+                className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-slate-50 placeholder-slate-500 focus:outline-none focus:border-blue-500 transition"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+                className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-slate-50 placeholder-slate-500 focus:outline-none focus:border-blue-500 transition"
+              />
+              <textarea
+                name="message"
+                placeholder="Brief message"
+                rows="4"
+                required
+                className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-slate-50 placeholder-slate-500 focus:outline-none focus:border-blue-500 transition resize-none"
+              ></textarea>
+              <button
+                type="submit"
+                className="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition flex items-center justify-center gap-2"
+              >
+                <Send size={18} /> Send Message
+              </button>
+            </form>
           </div>
         </div>
       </section>
