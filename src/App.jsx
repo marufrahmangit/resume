@@ -217,11 +217,11 @@ export default function PortfolioWebsite() {
                   // { label: 'Team Leadership', val: '90' },
                   // { label: 'Problem Solving', val: '92' },
                   // { label: 'Incident Response', val: '85' }
-                  { label: 'Problem Discovery & Framing', val: '90' },
-                  { label: 'Roadmapping & Prioritization', val: '85' },
+                  { label: 'Problem Discovery & Framing', val: '95' },
+                  { label: 'Roadmapping & Prioritization', val: '98' },
                   { label: 'Cross-functional Delivery', val: '95' },
                   { label: 'Tradeoff Decision-making', val: '90' },
-                  { label: 'Stakeholder Communication', val: '88' },
+                  { label: 'Stakeholder Communication', val: '97' },
                   { label: 'Outcome Evaluation & Iteration', val: '92' }
                 ].map(skill => (
                   <div key={skill.label}>
